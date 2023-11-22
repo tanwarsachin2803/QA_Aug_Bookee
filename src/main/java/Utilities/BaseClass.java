@@ -11,8 +11,9 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class BaseClass {
+
     ReadFile rf=new ReadFile();
-    WebDriver driver;
+    public WebDriver driver;
     Properties prop;
     public BaseClass() throws IOException {
         prop=rf.readConfig("config");
@@ -40,5 +41,15 @@ public class BaseClass {
                 driver=new EdgeDriver();
                 break;
         }
+
+
+    }
+    public void getUrl(String url)
+    {
+        driver.get(url);
+    }
+    public void switchToIframe(String frameName)
+    {
+        driver.switchTo().frame("studioyou-iframe");
     }
 }
