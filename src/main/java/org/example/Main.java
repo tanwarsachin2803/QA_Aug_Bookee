@@ -15,7 +15,7 @@ public class Main {
         prop=readFile.readConfig("config");
         System.out.println(prop.get("name"));
         BaseClass bs=new BaseClass();
-        bs.setup();
+        bs.browserSetup();
         bs.getUrl("https://f10boxing.weebly.com/reserve.html#/login");
 
     }

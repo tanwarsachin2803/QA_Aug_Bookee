@@ -1,6 +1,6 @@
 import Utilities.BaseClass;
 import Utilities.ReadFile;
-import WebPages.SignUp.LoginPage;
+import WebPages.LoginPage;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -12,10 +12,9 @@ public class LoginPageTest {
         prop=readFile.readConfig("config");
         System.out.println(prop.get("name"));
         BaseClass bs=new BaseClass();
-        bs.setup();
+       // bs.setup();
         bs.getUrl("https://f10boxing.weebly.com/reserve.html#/login");
         Thread.sleep(5000);
-        bs.switchToIframe("name");
         LoginPage lp=new LoginPage(bs);
         lp.enterEmail("Sachin Tanwar");
     }

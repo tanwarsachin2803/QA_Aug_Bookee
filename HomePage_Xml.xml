@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count="2">
+    <test name="Test 1">
+        <parameters name="browser" vale="chrome"/>
+        <classes>
+            <class name="HomePageTest"/>
+        </classes>
+    </test>
+</suite>

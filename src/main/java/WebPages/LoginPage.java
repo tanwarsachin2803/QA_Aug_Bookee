@@ -1,4 +1,4 @@
-package WebPages.SignUp;
+package WebPages;
 
 import Utilities.BaseClass;
 import org.openqa.selenium.WebDriver;

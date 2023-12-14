@@ -14,14 +14,31 @@ public class BaseClass {
 
     ReadFile rf=new ReadFile();
     public WebDriver driver;
-    Properties prop;
+    MobileAppConnection mac;
+    Properties prop=new Properties();
+
     public BaseClass() throws IOException {
+        mac=new MobileAppConnection();
         prop=rf.readConfig("config");
     }
 
-    public void setup()
+    public void platformSetup() throws IOException {
+        String platformOs= prop.getProperty("Platform_OS"); //keyword value of Platform os in config file
+        System.out.println("Platform is "+platformOs);
+        switch (platformOs)
+        {
+            default:
+                driver=browserSetup();
+                break;
+            case "mobile":
+                driver=mac.mobileSetup();
+                break;
+        }
+    }
+    public WebDriver browserSetup()
     {
         String browserName=prop.getProperty("browser");
+        System.out.println("Browser");
         switch (browserName)
         {
             default:
@@ -41,15 +58,16 @@ public class BaseClass {
                 driver=new EdgeDriver();
                 break;
         }
-
-
+        return driver;
     }
     public void getUrl(String url)
     {
-        driver.get(url);
+        String os=prop.getProperty("Platform_OS");
+        String url2=prop.getProperty("url");
+        System.out.println("Url "+url);
+        System.out.println("OS for url "+os);
+        String checkOS="website";
+
     }
-    public void switchToIframe(String frameName)
-    {
-        driver.switchTo().frame("studioyou-iframe");
-    }
+
 }
