@@ -72,6 +72,7 @@ public class HomePageTest {
         log.info("Quitting the browser");
         driver.quit();
     }
-
+// Commited new changes
     // Helper method for logging info
 }
+// new change 1
