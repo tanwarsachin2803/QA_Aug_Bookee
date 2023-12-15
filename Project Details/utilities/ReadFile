@@ -1,0 +1,13 @@
+This ReadFile class in Java is a utility that allows you to read properties from a configuration file. Let's break down its functionality:
+
+Properties Declaration: It declares a Properties object to hold key-value pairs from the configuration file.
+
+readConfig Method: This method takes a fileName as an argument, representing the name of the configuration file to be read. Here's what it does:
+
+Initializes the Properties object.
+Constructs the file path using System.getProperty("user.dir") to get the current working directory, then appends the path to the resources folder and the specified fileName.
+Creates a FileInputStream to read from the file path.
+Loads the properties from the file into the Properties object using the load method of Properties.
+Return: After loading the properties, it returns the Properties object containing the configuration data.
+
+This utility class allows you to read configuration data from a file (commonly .properties files in Java) and retrieve values by their keys. It abstracts away the file reading and property loading complexities, providing a clean way to access configuration settings in your Java application.

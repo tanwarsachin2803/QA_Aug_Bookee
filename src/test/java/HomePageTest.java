@@ -1,4 +1,5 @@
 import Utilities.BaseClass;
+import Utilities.MobileAppConnection;
 import WebPages.HomePage;
 import io.qameta.allure.*;
 import listener.ListenerClass;
@@ -15,6 +16,7 @@ public class HomePageTest {
     BaseClass bs;
     HomePage hp;
     WebDriver driver;
+    MobileAppConnection mac;
 
     @BeforeSuite
     public void setupTest() throws IOException {
@@ -23,6 +25,7 @@ public class HomePageTest {
         bs.platformSetup();
         driver = bs.driver;
         hp = new HomePage(bs);
+        mac=new MobileAppConnection();
         bs.getUrl("https://facebook.com");
     }
 
@@ -71,6 +74,7 @@ public class HomePageTest {
     public void quitBrowser() {
         log.info("Quitting the browser");
         driver.quit();
+        mac.stopAppiumServer();
     }
 
     // Helper method for logging info
