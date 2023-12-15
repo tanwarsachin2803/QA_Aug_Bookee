@@ -1,6 +1,7 @@
 package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import lombok.extern.log4j.Log4j2;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,6 +11,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.io.IOException;
 import java.util.Properties;
 
+@Log4j2
 public class BaseClass {
 
     ReadFile rf=new ReadFile();
@@ -20,11 +22,14 @@ public class BaseClass {
     public BaseClass() throws IOException {
         mac=new MobileAppConnection();
         prop=rf.readConfig("config");
+        log.info("Initializing BaseClass and reading config");
+
     }
 
     public void platformSetup() throws IOException {
         String platformOs= prop.getProperty("Platform_OS"); //keyword value of Platform os in config file
-        System.out.println("Platform is "+platformOs);
+        log.info("Platform OS set to: " + platformOs);
+
         switch (platformOs)
         {
             default:
@@ -38,7 +43,7 @@ public class BaseClass {
     public WebDriver browserSetup()
     {
         String browserName=prop.getProperty("browser");
-        System.out.println("Browser");
+        log.info("Browser set to: " + browserName);
         switch (browserName)
         {
             default:
@@ -64,9 +69,12 @@ public class BaseClass {
     {
         String os=prop.getProperty("Platform_OS");
         String url2=prop.getProperty("url");
-        System.out.println("Url "+url);
-        System.out.println("OS for url "+os);
         String checkOS="website";
+        if(os.contentEquals("website"))
+        {
+            driver.get(url2);
+        }
+        log.info("Navigating to URL: " + url);
 
     }
 

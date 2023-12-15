@@ -9,9 +9,9 @@ public class ReadFile {
     public Properties readConfig(String fileName) throws IOException {
         prop=new Properties();
         String file=System.getProperty("user.dir")+"/src//main/resources/"+fileName+".properties";
-        System.out.println(file);
         FileInputStream fis=new FileInputStream(file);
         prop.load(fis);
         return prop;
     }
+
 }

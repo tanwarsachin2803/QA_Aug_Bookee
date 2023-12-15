@@ -1,17 +1,13 @@
 package Utilities;
 
-import WebPages.cucumberHomePage.HomePage;
+import WebPages.HomePage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
 
@@ -23,18 +19,31 @@ public class MobileAppConnection {
     Properties prop;
 
     static DesiredCapabilities dc;
-  public MobileAppConnection()
-  {
+    String appiumHostNumber;
+    String appiumPortNumber;
+  public MobileAppConnection() throws IOException {
       dc=new DesiredCapabilities();
       rf=new ReadFile();
+      prop=rf.readConfig("mobileConfig");
+      appiumHostNumber= prop.getProperty("appiumHostNumber");
+      appiumPortNumber= prop.getProperty("appiumPortNumber");
   }
     public WebDriver android_Setup() throws IOException {
-        URL url=new URL("http://0.0.0.0:4723/wd/hub");
-        dc.setCapability("platformName", "Android");
-        dc.setCapability("appium:platformVersion", "12.0"); // Ensure platformVersion is a string
-        dc.setCapability("appium:deviceName", "Pixel_6a");
-        dc.setCapability("appium:udid", "emulator-5554");
-        dc.setCapability("appium:app", "/Users/sachintanwar/Downloads/facebook.apk");
+
+      // These are the values which we are taking from the mobileConfig properties file
+        String platformName= prop.getProperty("platformName");
+        String platformVersion= prop.getProperty("platformVersion");
+        String deviceName= prop.getProperty("deviceName");
+        String udid= prop.getProperty("udid");
+        String app= prop.getProperty("app");
+        URL url=new URL("http://"+appiumHostNumber+":"+appiumPortNumber+"/wd/hub");
+
+
+        dc.setCapability("platformName", platformName);
+        dc.setCapability("appium:platformVersion", platformVersion); // Ensure platformVersion is a string
+        dc.setCapability("appium:deviceName", deviceName);
+        dc.setCapability("appium:udid", udid);
+        dc.setCapability("appium:app", app);
 
         dc.setCapability("appium:appPackage","com.facebook.katana");
         dc.setCapability("appium:appActivity","com.facebook.katana.LoginActivity");

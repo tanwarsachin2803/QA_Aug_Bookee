@@ -1,0 +1,73 @@
+18:35:31.086 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+18:35:31.165 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:35:31.165 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:38:22.021 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:38:22.024 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+18:38:35.833 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:38:36.040 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:38:36.041 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:38:37.546 [main] INFO  WebPages.HomePage - Entering password
+18:38:38.674 [main] INFO  WebPages.HomePage - Clicking the Login button
+18:38:44.516 [main] INFO  WebPages.HomePage - Verifying successful login
+18:38:56.166 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:38:56.169 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+18:39:04.884 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:39:05.065 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:39:05.068 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:39:06.947 [main] INFO  WebPages.HomePage - Entering password
+18:39:07.740 [main] INFO  WebPages.HomePage - Clicking the Login button
+18:39:13.592 [main] INFO  WebPages.HomePage - Verifying successful login
+18:46:53.200 [main] INFO  HomePageTest - Starting the setup
+18:46:53.205 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:46:53.205 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+18:47:09.036 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:47:09.215 [main] INFO  HomePageTest - Starting valid login credentials test
+18:47:09.216 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:47:09.216 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:47:11.157 [main] INFO  WebPages.HomePage - Entering password
+18:47:12.640 [main] INFO  WebPages.HomePage - Clicking the Login button
+18:47:19.323 [main] INFO  WebPages.HomePage - Verifying successful login
+18:52:13.180 [main] INFO  HomePageTest - Starting the setup
+18:52:13.186 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:52:13.186 [main] INFO  Utilities.BaseClass - Platform OS set to: website
+18:52:13.186 [main] INFO  Utilities.BaseClass - Browser set to: chrome
+18:52:17.221 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:52:17.275 [main] INFO  HomePageTest - Starting valid login credentials test
+18:52:17.275 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:52:17.275 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:53:57.651 [main] INFO  HomePageTest - Starting the setup
+18:53:57.659 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:53:57.659 [main] INFO  Utilities.BaseClass - Platform OS set to: website
+18:53:57.659 [main] INFO  Utilities.BaseClass - Browser set to: chrome
+18:54:00.824 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:54:00.888 [main] INFO  HomePageTest - Starting valid login credentials test
+18:54:01.128 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:54:01.128 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:54:01.268 [main] INFO  WebPages.HomePage - Entering password
+18:54:01.327 [main] INFO  WebPages.HomePage - Clicking the Login button
+18:54:05.403 [main] INFO  WebPages.HomePage - Verifying successful login
+18:54:24.520 [main] INFO  HomePageTest - Starting the setup
+18:54:24.525 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:54:24.525 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+18:54:41.767 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:54:41.991 [main] INFO  HomePageTest - Starting valid login credentials test
+18:54:41.991 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:54:41.992 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:54:43.830 [main] INFO  WebPages.HomePage - Entering password
+18:54:44.603 [main] INFO  WebPages.HomePage - Clicking the Login button
+18:54:50.753 [main] INFO  WebPages.HomePage - Verifying successful login
+18:57:59.319 [main] INFO  HomePageTest - Starting the setup
+18:57:59.326 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:57:59.326 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+18:58:11.521 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:58:11.678 [main] INFO  HomePageTest - Starting invalid login credentials test
+18:58:11.679 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:58:13.234 [main] INFO  WebPages.HomePage - Entering password
+18:58:14.529 [main] INFO  WebPages.HomePage - Clicking the Login button
+18:58:20.678 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+18:58:20.733 [main] INFO  HomePageTest - Starting valid login credentials test
+18:58:20.734 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+18:58:20.734 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+18:59:53.248 [main] INFO  HomePageTest - Starting the setup
+18:59:53.254 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+18:59:53.254 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
