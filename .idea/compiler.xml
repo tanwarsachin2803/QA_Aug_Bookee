@@ -10,8 +10,5 @@
         <module name="QA_Aug_Bookee" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="QA_Aug_Bookee" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
