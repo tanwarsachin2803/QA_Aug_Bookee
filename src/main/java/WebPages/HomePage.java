@@ -115,7 +115,12 @@ public class HomePage {
             Boolean actualResult=wait.until(ExpectedConditions.visibilityOf(logginText)).isDisplayed(); //true
             Assert.assertEquals(actualResult,true,"Not verified");
         } else {
+<<<<<<< HEAD
+            //Rupinder ranch checkup
+            Assert.assertEquals(driver.getTitle(), "Facebook","User is not able to Login");
+=======
             Assert.assertEquals(driver.getTitle(), "Facebook", "User is not able to Login");
+>>>>>>> 60c520699541eb1e4285e7dd19838095ae44598d
         }
     }
 
