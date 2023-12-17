@@ -76,7 +76,11 @@ public class HomePageTest {
         driver.quit();
         mac.stopAppiumServer();
     }
-
+// Commited new changes
     // Helper method for logging info
     //Adding changes
 }
+// new change 1
+
+//rupinder adding comment for rupinder1 branch
+

@@ -14,3 +14,133 @@
 15:07:14.187 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
 15:07:34.615 [main] INFO  HomePageTest - Starting page scrolling test
 15:07:34.627 [main] INFO  HomePageTest - Quitting the browser
+19:00:06.287 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:00:06.503 [main] INFO  HomePageTest - Starting logo verification test
+19:00:06.503 [main] INFO  WebPages.HomePage - Verifying the Facebook logo
+19:00:07.779 [main] INFO  HomePageTest - This testcase is related to website
+19:00:07.797 [main] INFO  HomePageTest - Starting invalid login credentials test
+19:00:07.798 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:00:08.201 [main] INFO  WebPages.HomePage - Entering password
+19:00:09.306 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:00:14.923 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+19:00:14.943 [main] INFO  HomePageTest - Starting valid login credentials test
+19:00:14.943 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:00:14.943 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:00:35.315 [main] INFO  HomePageTest - Quitting the browser
+19:01:52.641 [main] INFO  HomePageTest - Starting the setup
+19:01:52.647 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+19:01:52.647 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+19:02:22.875 [main] INFO  HomePageTest - Starting the setup
+19:02:22.880 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+19:02:22.880 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+19:02:35.178 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:02:35.254 [main] INFO  HomePageTest - Starting logo verification test
+19:02:35.254 [main] INFO  WebPages.HomePage - We are testing mobile application
+19:02:35.348 [main] INFO  HomePageTest - Starting invalid login credentials test
+19:02:35.349 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:02:37.544 [main] INFO  WebPages.HomePage - Entering password
+19:02:38.730 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:02:44.084 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+19:02:44.121 [main] INFO  HomePageTest - Starting valid login credentials test
+19:02:44.121 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:02:44.121 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:02:48.848 [main] INFO  WebPages.HomePage - Entering password
+19:02:50.028 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:02:55.327 [main] INFO  WebPages.HomePage - Verifying successful login
+19:02:55.358 [main] INFO  HomePageTest - Starting page scrolling test
+19:02:57.911 [main] INFO  HomePageTest - Page scrolling done
+19:02:57.943 [main] INFO  HomePageTest - Quitting the browser
+19:09:55.764 [main] INFO  HomePageTest - Starting the setup
+19:09:55.769 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+19:09:55.769 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+19:10:11.063 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:10:11.174 [main] INFO  HomePageTest - Starting logo verification test
+19:10:11.176 [main] INFO  WebPages.HomePage - We are testing mobile application
+19:10:11.276 [main] INFO  HomePageTest - Starting invalid login credentials test
+19:10:11.276 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:10:12.568 [main] INFO  WebPages.HomePage - Entering password
+19:10:13.302 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:10:19.059 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+19:10:19.825 [main] INFO  HomePageTest - Starting valid login credentials test
+19:10:19.826 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:10:19.826 [main] INFO  WebPages.HomePage - Click ok button
+19:10:20.691 [main] INFO  HomePageTest - Starting page scrolling test
+19:10:20.997 [main] INFO  HomePageTest - Page scrolling done
+19:10:21.002 [main] INFO  HomePageTest - Quitting the browser
+19:11:16.201 [main] INFO  HomePageTest - Starting the setup
+19:11:16.206 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+19:11:16.206 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+19:11:28.019 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:11:28.108 [main] INFO  HomePageTest - Starting logo verification test
+19:11:28.108 [main] INFO  WebPages.HomePage - We are testing mobile application
+19:11:28.177 [main] INFO  HomePageTest - Starting invalid login credentials test
+19:11:28.177 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:11:29.245 [main] INFO  WebPages.HomePage - Entering password
+19:11:30.363 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:11:35.805 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+19:11:36.049 [main] INFO  HomePageTest - Starting valid login credentials test
+19:11:36.049 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:11:36.050 [main] INFO  WebPages.HomePage - Click ok button
+19:11:36.127 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:11:36.809 [main] INFO  WebPages.HomePage - Entering password
+19:11:37.942 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:11:43.280 [main] INFO  WebPages.HomePage - Verifying successful login
+19:11:44.263 [main] INFO  HomePageTest - Starting page scrolling test
+19:11:45.365 [main] INFO  HomePageTest - Page scrolling done
+19:11:45.373 [main] INFO  HomePageTest - Quitting the browser
+19:12:38.090 [main] INFO  HomePageTest - Starting the setup
+19:12:38.095 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+19:12:38.095 [main] INFO  Utilities.BaseClass - Platform OS set to: mobile
+19:12:49.294 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:12:49.379 [main] INFO  HomePageTest - Starting logo verification test
+19:12:49.379 [main] INFO  WebPages.HomePage - We are testing mobile application
+19:12:49.455 [main] INFO  HomePageTest - Starting invalid login credentials test
+19:12:49.456 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:12:51.016 [main] INFO  WebPages.HomePage - Entering password
+19:12:52.460 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:12:58.171 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+19:12:58.681 [main] INFO  HomePageTest - Starting valid login credentials test
+19:12:58.681 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+19:12:58.681 [main] INFO  WebPages.HomePage - Click ok button
+19:12:58.811 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+19:12:59.971 [main] INFO  WebPages.HomePage - Entering password
+19:13:00.604 [main] INFO  WebPages.HomePage - Clicking the Login button
+19:13:06.896 [main] INFO  WebPages.HomePage - Verifying successful login
+19:13:09.291 [main] INFO  HomePageTest - Starting page scrolling test
+19:13:09.766 [main] INFO  HomePageTest - Page scrolling done
+19:13:09.777 [main] INFO  HomePageTest - Quitting the browser
+12:53:04.423 [main] INFO  HomePageTest - Starting the setup
+12:53:04.453 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+12:53:04.453 [main] INFO  Utilities.BaseClass - Platform OS set to: website
+12:53:04.454 [main] INFO  Utilities.BaseClass - Browser set to: chrome
+12:53:14.351 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+12:53:14.540 [main] INFO  HomePageTest - Starting logo verification test
+12:53:14.541 [main] INFO  WebPages.HomePage - Verifying the Facebook logo
+12:53:14.831 [main] INFO  HomePageTest - Starting invalid login credentials test
+12:53:14.831 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+12:53:15.102 [main] INFO  WebPages.HomePage - Entering password
+12:53:15.431 [main] INFO  WebPages.HomePage - Clicking the Login button
+12:53:19.581 [main] INFO  WebPages.HomePage - Verifying unsuccessful login
+12:53:19.637 [main] INFO  HomePageTest - Starting valid login credentials test
+12:53:20.149 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+12:53:20.150 [main] INFO  WebPages.HomePage - Click ok button
+12:53:20.150 [main] INFO  WebPages.HomePage - We are testing website
+12:53:20.150 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+12:53:20.325 [main] INFO  WebPages.HomePage - Entering password
+12:53:20.536 [main] INFO  WebPages.HomePage - Clicking the Login button
+12:53:24.655 [main] INFO  WebPages.HomePage - Verifying successful login
+12:53:25.490 [main] INFO  HomePageTest - Starting page scrolling test
+12:53:25.626 [main] INFO  HomePageTest - Page scrolling done
+12:53:25.639 [main] INFO  HomePageTest - Quitting the browser
+12:54:49.557 [main] INFO  HomePageTest - Starting the setup
+12:54:49.578 [main] INFO  Utilities.BaseClass - Initializing BaseClass and reading config
+12:54:49.578 [main] INFO  Utilities.BaseClass - Platform OS set to: website
+12:54:49.578 [main] INFO  Utilities.BaseClass - Browser set to: chrome
+12:54:55.566 [main] INFO  Utilities.BaseClass - Navigating to URL: https://facebook.com
+12:54:56.000 [main] INFO  HomePageTest - Starting logo verification test
+12:54:56.000 [main] INFO  WebPages.HomePage - Verifying the Facebook logo
+12:54:56.284 [main] INFO  HomePageTest - Starting invalid login credentials test
+12:54:56.284 [main] INFO  WebPages.HomePage - Entering username: pragra123@yopmail.com
+12:55:16.606 [main] INFO  HomePageTest - Starting valid login credentials test
+12:55:16.645 [main] INFO  HomePageTest - Starting page scrolling test
+12:55:16.718 [main] INFO  HomePageTest - Quitting the browser
