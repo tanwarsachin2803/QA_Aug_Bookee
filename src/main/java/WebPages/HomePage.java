@@ -128,7 +128,7 @@ public class HomePage {
             Boolean actualResult=wait.until(ExpectedConditions.visibilityOf(logginText)).isDisplayed();
             Assert.assertEquals(actualResult,true,"Not logged in");
         } else {
-            Assert.assertEquals(driver.getTitle(),"Facebook" , "User is not able to Login");
+            Assert.assertEquals(driver.getTitle(), "Facebook", "User is not able to Login");
         }
     }
 

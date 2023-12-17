@@ -1,0 +1,59 @@
+log4j2: A logging utility in Java that allows logging information at different levels (info, debug, error, etc.) for better debugging and tracing in the application.
+
+ReadFile: Presumably a custom utility class or method used to read configuration files (config in this case) that contain settings or properties for the test suite.
+
+WebDriver: An interface in Selenium that provides methods to interact with a web browser. It's used to create browser-specific driver instances for Chrome, Firefox, Safari, etc.
+
+WebDriverManager: A third-party library that helps automate the management of driver binaries (e.g., chromedriver, geckodriver) required by WebDriver-based browser tests.
+
+BaseClass: A utility class that initializes the WebDriver, reads configuration settings, and sets up the testing environment based on the specified configurations.
+
+platformSetup(): A method in BaseClass that configures the testing platform based on the provided settings (e.g., Platform_OS property from the config file).
+
+browserSetup(): A method in BaseClass responsible for setting up the WebDriver instance based on the specified browser (Chrome, Firefox, Safari, Edge) retrieved from the config file.
+
+getUrl(): A method in BaseClass used to navigate the WebDriver instance to the specified URL obtained from the config file, provided the Platform_OS is set to "website".
+
+Properties: A class in Java used to manage application configuration in the form of key-value pairs, often used to store settings like browser type, URLs, etc.
+
+Platform_OS: A property key in the configuration file (config) that presumably stores the information about the testing platform (e.g., "mobile" or "website").
+
+browser: A property key in the configuration file that specifies the type of browser (e.g., "chrome", "firefox") for running the tests.
+
+url: A property key in the configuration file that holds the URL to navigate to when testing the website.
+
+Why Using them:-
+
+log4j2:
+Use: Logging is crucial for debugging and monitoring the execution flow of tests.
+Why: It provides different log levels (info, debug, error, etc.) to track and trace activities within the test suite. This helps in identifying issues and understanding the flow of the application during test execution.
+
+ReadFile:
+Use: Reads configuration files to retrieve test parameters and settings.
+Why: Configuration files hold vital information like URLs, browser types, and platform settings. Reading these settings dynamically from a file allows for easy configuration changes without altering the code.
+
+WebDriver and WebDriverManager:
+Use: Provides an interface to interact with different web browsers.
+Why: WebDriver is essential for browser automation in Selenium. WebDriverManager simplifies managing and setting up browser drivers, ensuring compatibility and ease of use across different browsers.
+
+BaseClass:
+Use: Serves as a foundation for test classes to inherit common functionalities.
+Why: It centralizes common setup procedures like initializing the WebDriver, handling configuration settings, and providing reusable methods for test classes, reducing redundancy and improving maintainability.
+
+platformSetup() and browserSetup():
+Use: Configures the test environment and initializes the WebDriver instance.
+Why: These methods ensure the correct browser and platform configurations are set up before running the tests, allowing seamless execution across different environments.
+
+getUrl():
+Use: Navigates the WebDriver instance to a specified URL.
+Why: Obtaining URLs from a configuration file enables flexibility in changing test URLs without modifying the test code. The method ensures the WebDriver lands on the right web page for testing.
+
+Properties:
+Use: Manages application-specific configurations in key-value pairs.
+Why: Storing settings in a properties file simplifies the process of managing and modifying test configurations without modifying the codebase directly, enhancing maintainability.
+Overall, these components facilitate streamlined test execution, improve code maintainability, and provide flexibility in configuring and running tests across various environments.
+
+
+
+
+

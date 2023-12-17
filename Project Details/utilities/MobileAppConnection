@@ -1,0 +1,42 @@
+DesiredCapabilities:
+Use: Contains a set of key-value pairs used to configure automation sessions in Appium.
+Why: These capabilities specify various parameters needed to initialize the automation session for mobile devices (e.g., platform name, version, device name, application details, etc.).
+
+AndroidDriver and IOSDriver:
+Use: Appium-specific WebDriver classes for Android and iOS platforms.
+Why: These classes extend the WebDriver interface, providing specific methods and functionalities tailored for Android and iOS application automation.
+
+URL:
+Use: Represents a Uniform Resource Locator.
+Why: It defines the address of the Appium server. It's essential to specify the server URL to establish a connection between the Appium server and the mobile device for test automation.
+
+ReadFile and Properties:
+Use: Reads and manages configuration settings stored in properties files.
+Why: Configuration files store details specific to mobile devices and their capabilities (e.g., platform name, version, device name, app details). Reading these settings from a file allows for easy configuration changes without altering the codebase.
+
+appiumHostNumber and appiumPortNumber:
+Use: Store the host and port numbers for the Appium server.
+Why: These values determine where the Appium server is hosted and the port it's listening to, essential for establishing a connection between the test script and the Appium server.
+
+platformName, platformVersion, deviceName, udid, app:
+Use: Represent desired capabilities for mobile device configuration in Appium.
+Why: These capabilities define the platform, version, device, application, and other necessary details required to initiate automation sessions for mobile devices. They ensure the correct setup of the mobile environment for testing.
+
+mobile_OS:
+Use: Specifies the target mobile operating system.
+Why: This property determines which mobile platform-specific setup method to invoke based on the configuration provided in the properties file.
+In essence, these keywords and functionalities facilitate the setup and configuration of the Appium automation environment for both Android and iOS platforms. They define parameters, capabilities, and connections necessary for effective mobile test automation.
+
+Appium Server: The central component of the architecture, responsible for managing communication between the test script and the mobile device/emulator. It supports multiple automation frameworks and translates WebDriver commands into appropriate mobile automation commands.
+
+Test Scripts: These are the automation scripts written by testers or developers. They use WebDriver APIs or client libraries in various programming languages (Java, Python, JavaScript, etc.) to send commands to the Appium server.
+
+Driver: An essential element of the architecture, it establishes a connection between the Appium server and the mobile device/emulator. There are platform-specific drivers (e.g., AndroidDriver, IOSDriver) that define communication protocols between the Appium server and the respective mobile platform.
+
+Desired Capabilities: These are the settings used to configure the behavior of the Appium server and the test sessions. They include platform name, device name, app package, app activity, and more. These capabilities help Appium identify the device and app to be automated.
+
+Appium Clients: These are libraries or frameworks that expose APIs to interact with the Appium server. They provide methods to create sessions, execute commands, and handle responses from the Appium server. Examples include Java's Appium Java Client, Python's Appium-Python-Client, etc.
+
+JSON Wire Protocol: Appium communicates using the WebDriver protocol, which follows the JSON Wire Protocol. This protocol defines a standard way to interact with various browsers and mobile devices, enabling seamless communication between the test script and the Appium server.
+
+Mobile Devices or Emulators: Actual physical devices or emulators/simulators where the mobile apps are installed. Appium sends the commands to these devices, and the interaction (taps, swipes, etc.) is performed on these devices during the test execution.
