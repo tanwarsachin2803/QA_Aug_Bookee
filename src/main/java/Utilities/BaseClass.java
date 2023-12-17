@@ -22,8 +22,6 @@ public class BaseClass {
     public BaseClass() throws IOException {
         mac=new MobileAppConnection();
         prop=rf.readConfig("config");
-        log.info("Initializing BaseClass and reading config");
-
     }
 
     public void platformSetup() throws IOException {

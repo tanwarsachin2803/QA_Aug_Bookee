@@ -78,4 +78,5 @@ public class HomePageTest {
     }
 
     // Helper method for logging info
+    //Adding changes
 }
